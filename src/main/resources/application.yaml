@@ -1,0 +1,13 @@
+server:
+  port: 8889
+  servlet:
+    context-path: /mongo
+
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://127.0.0.1:27017/ngy
+#      todo auth=false 👇下面可以不填
+#      username: your_username
+#      password: your_password
